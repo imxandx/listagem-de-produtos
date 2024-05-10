@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Listagem de Produtos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./assets/lista.png">
+</head>
+<body>
+
+    <div class="container">
+        <div class="header">
+            <img src="./assets/PRETO - Sem Fundo.png" alt="logo">
+            <h1>Im<span>Xandx</span></h1>
+        </div>
+
+        <div class="container-content">
+            <div class="lista-cadastro">
+                <input type="text" placeholder="Nome do produto..." name="nome_produto">
+                <input type="number" placeholder="Valor do produto" name="price" step="0.01">
+                <input class="cadastrar" type="submit" name="acao" value="Cadastrar">
+            </div>
+        </div>
+
+        <div class="lista-produtos">
+            
+        </div>
+
+        <div class="soma-produto">
+            <h1>Total: R$0</h1>
+        </div>
+
+        <button class="limpar" name="limpar">Limpar</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
